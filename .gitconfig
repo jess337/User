@@ -1,0 +1,8 @@
+[user]
+	name = jess337
+	email = sasha1c2016@mail.ru
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = true
+	safecrlf = warn

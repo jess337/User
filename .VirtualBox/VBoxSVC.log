@@ -1,0 +1,177 @@
+00:00:00.002355 main     VirtualBox COM Server 7.0.14 r161095 win.amd64 (Jan 15 2024 14:59:30) release log
+00:00:00.002356 main     Log opened 2024-06-01T07:23:25.901731100Z
+00:00:00.002357 main     Build Type: release
+00:00:00.002361 main     OS Product: Windows 11
+00:00:00.002362 main     OS Release: 10.0.22621
+00:00:00.002362 main     OS Service Pack: 
+00:00:00.021500 main     DMI Product Name: Modern 15 B12M
+00:00:00.030293 main     DMI Product Version: REV:1.0
+00:00:00.030305 main     Firmware type: UEFI
+00:00:00.030524 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.030541 main     Host RAM: 16088MB (15.7GB) total, 10432MB (10.1GB) available
+00:00:00.030544 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.030544 main     Process ID: 10504
+00:00:00.030544 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.122376          VirtualBox: object creation starts
+00:00:00.122499          Home directory: 'C:\Users\User\.VirtualBox'
+00:00:00.122587          Installed Drivers:
+00:00:00.125919            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.14.11095)
+00:00:00.126518            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.14.11095)
+00:00:00.126783            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 7.0.14.11095)
+00:00:00.127467            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.14.11095)
+00:00:00.131621          Loading settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.132788          usbLibGetDevices: Starting USB device enumeration
+00:00:00.132910          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&23fca24&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.135504          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&23fca24&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.137113          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.137171          USB: Unknown USB device detected (idVendor: 0x1ea7, idProduct: 0x0064)
+00:00:00.137181          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.231657          HostDnsMonitor: initializing
+00:00:00.240850          HostDnsMonitor: updating information
+00:00:00.240869          HostDnsMonitor: old information
+00:00:00.240869            no server entries
+00:00:00.240870            no domain set
+00:00:00.240870            no search string entries
+00:00:00.240871          HostDnsMonitor: new information
+00:00:00.240871            server 1: 192.168.20.10
+00:00:00.240871            server 2: 192.168.20.11
+00:00:00.240872            no domain set
+00:00:00.240872            no search string entries
+00:00:00.242404          VD: VDInit finished with VINF_SUCCESS
+00:00:00.243550          Loading settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:00:00.244174          VirtualBox: object created
+00:00:00.295513          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.298087          Finished saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml"
+00:00:00.298188          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.300247          Finished saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml"
+00:00:00.300338          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.302155          Finished saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml"
+00:00:00.811572          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:02.438016          Launched VM: 3833933920 pid: 14012 (0x36bc) frontend: GUI/Qt name: redos
+00:00:02.449687          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:06.315011          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:00:06.608818          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:09.901610          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:00:10.942132          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:13.488698          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:00:13.493012          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:00:13.531679          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:54.294963          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:00:54.298231          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:00:54.308013          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:58.747399          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:00:58.750616          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:00:58.757190          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:01.907088          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:01:01.912204          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:01:01.919463          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:04.641510          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:01:04.644248          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:01:04.653723          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:08.405235          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:01:08.408925          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:01:08.418555          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:03:40.044710          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:03:40.047954          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:03:40.054173          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:06:41.205044          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:06:41.208123          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:06:41.222366          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:07:14.440984          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:07:14.444492          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:07:14.452911          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:07:47.419401          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:07:47.423195          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:07:47.431611          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:08:26.858736          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:08:26.862132          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:08:26.871069          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:08:43.268481 dns-monitor HostDnsMonitor: updating information
+00:08:43.268508 dns-monitor HostDnsMonitor: unchanged
+00:10:38.594309          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:10:38.599858          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:10:38.611085          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:11:17.516906          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:11:17.521118          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:11:17.528441          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:11:40.283790          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:11:40.287430          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:11:40.294495          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:12:14.846263          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:12:14.849505          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:12:14.856379          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:12:29.203814          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:12:29.207085          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:12:29.213591          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:12:49.531205          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:12:49.534406          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:12:49.542748          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:13:02.070906          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:13:02.073828          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:13:02.081659          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:13:23.389621          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:13:23.394386          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:13:23.404703          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:15:06.813773          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:15:06.817614          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:15:06.828383          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:15:29.795153          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:15:29.799316          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:15:29.806062          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:16:56.967485          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:16:56.970779          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:16:56.979752          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:18:14.873383          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:18:14.876819          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:18:14.886584          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:18:58.648203 dns-monitor HostDnsMonitor: updating information
+00:18:58.648225 dns-monitor HostDnsMonitor: unchanged
+00:28:44.671842          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:28:44.675015          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:28:44.683479          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:29:18.165456 dns-monitor HostDnsMonitor: updating information
+00:29:18.165483 dns-monitor HostDnsMonitor: unchanged
+00:29:32.920585          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:29:32.923540          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:29:32.930651          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:35:44.281326          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:35:44.283925          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:35:44.294911          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:35:45.905429          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:35:45.908883          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:35:45.915064          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:38:45.138866          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:38:45.141631          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:38:45.152735          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:39:35.316329 dns-monitor HostDnsMonitor: updating information
+00:39:35.316350 dns-monitor HostDnsMonitor: unchanged
+00:47:06.001880          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:47:06.005017          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:47:06.014360          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:49:51.353444 dns-monitor HostDnsMonitor: updating information
+00:49:51.353480 dns-monitor HostDnsMonitor: unchanged
+00:52:54.686877          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+00:52:54.689703          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+00:52:54.695484          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+01:00:07.882036 dns-monitor HostDnsMonitor: updating information
+01:00:07.882109 dns-monitor HostDnsMonitor: unchanged
+01:10:25.801652 dns-monitor HostDnsMonitor: updating information
+01:10:25.801678 dns-monitor HostDnsMonitor: unchanged
+01:20:44.630710 dns-monitor HostDnsMonitor: updating information
+01:20:44.630736 dns-monitor HostDnsMonitor: unchanged
+01:23:33.580913          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+01:23:35.679612          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+01:23:40.863051          Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+01:23:40.866114          Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+01:23:40.868974          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:23:40.881399          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:23:40.882800 SaveState Saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox" with version "1.19-windows"
+01:23:40.886537 SaveState Finished saving settings file "C:\Users\User\VirtualBox VMs\redos\redos.vbox"
+01:23:40.922740          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:23:42.404368          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+01:23:52.660335 main     VirtualBox: object deletion starts
+01:23:52.661074 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\User\VirtualBox VMs\redos\redos.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:23:52.662374 main     HostDnsMonitor: shutting down ...
+01:23:52.662470 main     HostDnsMonitor: shut down
+01:23:52.663893 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:23:52.664068 main     VirtualBox: object deleted

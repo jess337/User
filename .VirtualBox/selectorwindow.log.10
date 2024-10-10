@@ -1,0 +1,38 @@
+00:00:00.477333 VirtualBox GUI VM Selector Window 7.0.14 r161095 win.amd64 (Jan 15 2024 14:59:30) release log
+00:00:00.477335 Log opened 2024-05-21T07:21:06.280248700Z
+00:00:00.477335 Build Type: release
+00:00:00.477337 OS Product: Windows 11
+00:00:00.477338 OS Release: 10.0.22621
+00:00:00.477338 OS Service Pack: 
+00:00:00.487811 DMI Product Name: Modern 15 B12M
+00:00:00.491776 DMI Product Version: REV:1.0
+00:00:00.491789 Firmware type: UEFI
+00:00:00.492013 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.492027 Host RAM: 16088MB (15.7GB) total, 10356MB (10.1GB) available
+00:00:00.492030 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.492030 Process ID: 8364
+00:00:00.492031 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.492131 Qt version: 5.15.2
+00:00:00.492543 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.504384 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.981489 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:11.562927 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:01.188448 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:03.465913 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:20:32.969920 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:20:44.266061 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:22.773452 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:27:09.782520 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:27:46.123222 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:30.796645 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:22.014309 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:40:03.047599 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:48:33.860048 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:13.452279 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:37.575792 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:52:56.413509 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:53:40.982718 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:54:56.811275 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:55:58.829297 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:05:12.715810 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:05:12.715870 Log rotated - Log started 2024-05-21T07:21:06.280248700Z
